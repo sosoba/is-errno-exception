@@ -3,6 +3,10 @@
   "version": "1.0.0",
   "description": "Typescript assertion for Nodejs exceptions",
   "type": "module",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sosoba/is-errno-exception"
+  },
   "exports": {
     "import": "./main.js",
     "types": "./main.d.ts"
