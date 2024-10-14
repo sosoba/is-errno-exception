@@ -1,0 +1,18 @@
+{
+  "name": "is-errno-exception",
+  "version": "1.0.0",
+  "description": "Typescript assertion for Nodejs exceptions",
+  "type": "module",
+  "exports": {
+    "import": "./main.js",
+    "types": "./main.d.ts"
+  },
+  "keywords": [
+    "ErrnoException"
+  ],
+  "author": "Sławomir Osoba",
+  "license": "Apache-2.0",
+  "peerDependencies": {
+    "@types/node": "^22.7.5"
+  }
+}
