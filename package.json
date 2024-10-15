@@ -1,6 +1,6 @@
 {
   "name": "is-errno-exception",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Typescript assertion for Nodejs exceptions",
   "type": "module",
   "repository": {
