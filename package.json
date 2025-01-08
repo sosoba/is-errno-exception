@@ -11,6 +11,10 @@
     "import": "./main.js",
     "types": "./main.d.ts"
   },
+  "scripts": {
+    "version": "npm publish",
+    "postversion": "git push origin v%npm_new_version% && git push"
+  },
   "types": "./main.d.ts",
   "keywords": [
     "ErrnoException"
