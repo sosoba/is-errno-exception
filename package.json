@@ -7,27 +7,15 @@
     "type": "git",
     "url": "git+https://github.com/sosoba/is-errno-exception.git"
   },
-  "exports": {
-    "import": "./main.js",
-    "types": "./main.d.ts"
-  },
+  "exports": "./main.js",
   "scripts": {
     "preversion": "npm whoami",
     "version": "npm publish",
     "postversion": "git push origin v%npm_new_version% && git push"
   },
-  "types": "./main.d.ts",
   "keywords": [
     "ErrnoException"
   ],
   "author": "Sławomir Osoba",
-  "license": "Apache-2.0",
-  "peerDependencies": {
-    "@types/node": "*"
-  },
-  "peerDependenciesMeta": {
-    "@types/node": {
-      "optional": true
-    }
-  }
+  "license": "Apache-2.0"
 }
