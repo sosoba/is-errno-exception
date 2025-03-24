@@ -12,6 +12,7 @@
     "types": "./main.d.ts"
   },
   "scripts": {
+    "preversion": "npm whoami",
     "version": "npm publish",
     "postversion": "git push origin v%npm_new_version% && git push"
   },
